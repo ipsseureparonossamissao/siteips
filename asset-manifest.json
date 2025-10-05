@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/siteips/static/css/main.292cba12.css",
+    "main.js": "/siteips/static/js/main.f2a57a33.js",
+    "index.html": "/siteips/index.html",
+    "main.292cba12.css.map": "/siteips/static/css/main.292cba12.css.map",
+    "main.f2a57a33.js.map": "/siteips/static/js/main.f2a57a33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.292cba12.css",
+    "static/js/main.f2a57a33.js"
+  ]
+}
