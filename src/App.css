@@ -1,0 +1,46 @@
+/* Custom styles for IPS - Reparos */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom transitions for better UX */
+* {
+    transition-property: transform, opacity, background-color, border-color, color, fill, stroke, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Custom hover effects */
+.hover-lift:hover {
+    transform: translateY(-4px);
+}
+
+/* WhatsApp button pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.whatsapp-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Smooth gradient backgrounds */
+.gradient-bg {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe  50%, #f0fdf4 100%);
+}
+
+/* Custom shadows */
+.shadow-elegant {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-elegant-hover:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
